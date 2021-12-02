@@ -17,5 +17,5 @@ My solutions to the challenges given on the Advent of Code
    /  O   i   O  \      /_/\_\      \ \ \/ / / \__,_|\____/ |_|
  i/ *   O   O   * \i
  /=================\
-       |___|
+        |___|
 ```
