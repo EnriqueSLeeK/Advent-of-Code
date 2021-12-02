@@ -1,7 +1,7 @@
 # Advent-of-Code
 
 My solutions to the challenges given on the Advent of Code
-
+"
          |
         -+-
          A
@@ -18,3 +18,4 @@ My solutions to the challenges given on the Advent of Code
 i/ *   O   O   * \i
 /=================\
        |___|
+"
