@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#Basic script to create a dir and files
 echo "Input day:"
 read day
 
