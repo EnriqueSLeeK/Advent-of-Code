@@ -5,15 +5,16 @@ with open("input", "r") as f:
 
 days = 256
 
-# Huge thanks to reddit:D
+# Huge thanks to the Advent of 
+# code subreddit for the help
 def calc():
 
     born = defaultdict(lambda: 0)
 
-    #Populate the dictionary
+    # First generation
     for day in fish:
         born[day] += 1
-    #This loop it's in charge of calculating the subsequent offsprings
+    # Calculating the subsequent offsprings
     for day in range(days):
         born[day] += born[day - 7] + born[day - 9]
     print(sum(born.values()) + len(fish))
