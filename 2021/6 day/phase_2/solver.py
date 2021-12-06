@@ -14,7 +14,7 @@ def calc():
     # First generation
     for day in fish:
         born[day] += 1
-    # Calculating the subsequent offsprings
+    # Calculating the subsequent generations
     for day in range(days):
         born[day] += born[day - 7] + born[day - 9]
     print(sum(born.values()) + len(fish))
