@@ -20,11 +20,6 @@ maximum_y = 1 + (max_y1 if max_y1 > max_y2 else max_y2)
 
 field = [0] * ((maximum_x + 1) * (maximum_y + 1))
 
-def zip_and_sort(c1, c2):
-    coord = [c1, c2]
-    coord.sort()
-    return (coord)
-
 def add(arr, startx, starty, endx, endy):
 
     if (startx == endx):
