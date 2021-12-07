@@ -11,7 +11,6 @@ def progression_sum(steps):
         return (0)
     return ((1 + steps) * steps) // 2
 
-# Naive solver
 for target in range(min_pos, max_pos):
     total_cost = 0
     for crab in crab_position:
