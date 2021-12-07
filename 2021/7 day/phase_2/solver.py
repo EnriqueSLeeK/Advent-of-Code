@@ -7,8 +7,6 @@ min_pos = min(crab_position)
 cost = []
 
 def progression_sum(steps):
-    if (steps == 0):
-        return (0)
     return ((1 + steps) * steps) // 2
 
 for target in range(min_pos, max_pos):
