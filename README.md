@@ -1,6 +1,6 @@
 # Advent-of-Code
 
-My solutions to the challenges given by Advent of Code
+My solutions to the challenges given by Advent of Code xD
 ```
           |
          -+-
