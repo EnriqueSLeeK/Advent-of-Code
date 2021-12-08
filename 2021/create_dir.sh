@@ -7,10 +7,15 @@ echo "Before using please copy your input to the system clipboard"
 echo "Input day:"
 read day
 
-mkdir "$day day"
-mkdir "$day day/phase_1"
-xclip -o -sel clip > "$day day/phase_1/input"
-echo 'with open("input", "r") as f:' > "$day day/phase_1/solver.py"
-mkdir "$day day/phase_2"
-xclip -o -sel clip > "$day day/phase_2/input"
-echo 'with open("input", "r") as f:' > "$day day/phase_2/solver.py"
+if [ ! -d "$day day" ]; then
+	mkdir "$day day"
+	mkdir "$day day/phase_1"
+	xclip -o -sel clip > "$day day/phase_1/input"
+	echo 'with open("input", "r") as f:' > "$day day/phase_1/solver.py"
+	mkdir "$day day/phase_2"
+	xclip -o -sel clip > "$day day/phase_2/input"
+	echo 'with open("input", "r") as f:' > "$day day/phase_2/solver.py"
+
+else
+	echo "The directory already exist :P"
+fi
