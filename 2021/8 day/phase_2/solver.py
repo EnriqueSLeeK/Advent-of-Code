@@ -1,7 +1,7 @@
 with open("input", "r") as f:
-#with open("t", "r") as f:
     signals_and_codes = [[sequence for sequence in code.split('|')]
                         for code in f]
+
 signals = [signals[0].split() for signals in signals_and_codes]
 codes = [signals[1].split() for signals in signals_and_codes]
 
@@ -37,7 +37,6 @@ def construct_num(number_one, number_four, seq_code):
                     number += "9"
                 else:
                     number += "0"
-    print(number)
     return (number)
 
 def find_one(seq_signal, length):
