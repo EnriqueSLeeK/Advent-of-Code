@@ -1,5 +1,4 @@
 with open("input", "r") as f:
-#with open("t", "r") as f:
     lines = f.readlines()
 lines = [line.replace("\n", "") for line in lines]
 
