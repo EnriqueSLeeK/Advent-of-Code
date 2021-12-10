@@ -1,12 +1,12 @@
 #!/bin/bash
 
-echo "Before using please copy your input to the system clipboard"
+echo "Before using please copy your input to the system clipboard ;)"
 
-#Careful with the because it can overwrite data
 #Basic script to create a dir and files
 echo "Input day:"
 read day
 
+#Directory protection
 if [ ! -d "$day day" ]; then
 	mkdir "$day day"
 	mkdir "$day day/phase_1"
