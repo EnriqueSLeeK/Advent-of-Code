@@ -1,5 +1,6 @@
 with open("input", "r") as f:
     lines = f.readlines()
+# Clear line breaks
 lines = [line.replace("\n", "") for line in lines]
 
 def expected_symbol(symbol):
