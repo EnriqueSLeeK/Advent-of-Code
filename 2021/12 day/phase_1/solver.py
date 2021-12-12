@@ -1,7 +1,6 @@
 from collections import defaultdict
 
 with open("input", "r") as f:
-#with open("t", "r") as f:
     paths = [[node.replace("\n", "") for node in connection.split("-")] for connection in f]
 
 path_branch = defaultdict(lambda: [])
