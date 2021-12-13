@@ -2,7 +2,7 @@
 
 My solutions to the challenges given by Advent of Code xD
 
-To run my script on "2021" folder you will need to install: _xclip_
+To run my script in the "2021" folder you will need to install: _xclip_
 ```
           |
          -+-
