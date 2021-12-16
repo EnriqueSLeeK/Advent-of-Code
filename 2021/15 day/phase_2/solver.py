@@ -91,6 +91,5 @@ for k in range(5):
     generate_next_segment()
     if (k != 4):
         distance_reset()
-    print(k)
 
 print(distance[y_max - 2][x_max - 1] - adjust)
