@@ -15,12 +15,9 @@ fn overlap(min: &str, max: &str, min_p: &str, max_p: &str) -> i32 {
 
     let a_p = min_p.parse::<i32>().unwrap();
     let b_p = max_p.parse::<i32>().unwrap();
-    //println!("{} {} {} {}", a, b, a_p, b_p);
 
     if a <= a_p && b >= b_p { return 1 }
     if a >= a_p && b <= b_p { return 1 }
-    if (a >= a_p && b <= a_p) || (a >= b_p && b <= b_p) { return 1 }
-    if (a <= a_p && b >= a_p) || (a <= b_p && b >= b_p) { return 1 }
     0
 }
 
